@@ -1,0 +1,21 @@
+{
+  "name": "rocketseat-mba-member-club",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "repository": "git@github.com:viniiciusmarques/rocketseat-mba-member-club.git",
+  "author": "Vinicius Marques <viniciusmarquesperes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch src/database/db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },"devDependencies": {
+    "vite": "^6.1.0"
+  }
+}
